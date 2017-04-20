@@ -116,69 +116,69 @@ function showLoveU() {
 }
 
 function showCODE() {
-	
+	var deltaT = -1000;
 	setTimeout(function () {
                 $('#sentence1').fadeIn(3000);
-            }, 22596);
+            }, 22596+deltaT);
 	setTimeout(function () {
                 $('#sentence2').fadeIn(3000);
-            }, 29155);		
+            }, 29155+deltaT);		
 	setTimeout(function () {
                 $('#sentence3').fadeIn(3000);
-            }, 34216);		
+            }, 34216+deltaT);		
 	setTimeout(function () {
                 $('#sentence4').fadeIn(3000);
-            }, 38065);		
+            }, 38065+deltaT);		
 	setTimeout(function () {
                 $('#sentence5').fadeIn(3000);
-            }, 43411);
+            }, 43411+deltaT);
 	setTimeout(function () {
                 $('#sentence6').fadeIn(3000);
-            }, 53772);		
+            }, 53772+deltaT);		
 	setTimeout(function () {
                 $('#sentence7').fadeIn(3000);
-            }, 57026);		
+            }, 57026+deltaT);		
 	setTimeout(function () {
                 $('#sentence8').fadeIn(3000);
-            }, 62159);		
+            }, 62159+deltaT);		
 	setTimeout(function () {
                 $('#sentence9').fadeIn(3000);
-            }, 70285);
+            }, 70285+deltaT);
 	setTimeout(function () {
                 $('#sentence10').fadeIn(3000);
-            }, 75132);		
+            }, 75132+deltaT);		
 	setTimeout(function () {
                 $('#sentence11').fadeIn(3000);
-            }, 79053);		
+            }, 79053+deltaT);		
 	setTimeout(function () {
                 $('#sentence12').fadeIn(3000);
-            }, 84756);		
+            }, 84756+deltaT);		
 	setTimeout(function () {
                 $('#sentence13').fadeIn(3000);
-            }, 89888);
+            }, 89888+deltaT);
 	setTimeout(function () {
                 $('#sentence14').fadeIn(3000);
-            }, 94237);		
+            }, 94237+deltaT);		
 	setTimeout(function () {
                 $('#sentence15').fadeIn(3000);
-            }, 97017);		
+            }, 97017+deltaT);		
 	setTimeout(function () {
                 $('#sentence16').fadeIn(3000);
-            }, 103578);		
+            }, 103578+deltaT);		
 	setTimeout(function () {
                 $('#sentence17').fadeIn(3000);
-            }, 106640);
+            }, 106640+deltaT);
 	setTimeout(function () {
                 $('#sentence18').fadeIn(3000);
-            }, 112556);		
+            }, 112556+deltaT);		
 	setTimeout(function () {
                 $('#sentence19').fadeIn(3000);
-            }, 118548);		
+            }, 118548+deltaT);		
 	setTimeout(function () {
                 $('#sentence20').fadeIn(3000);
-            }, 124461);
+            }, 124461+deltaT);
 	setTimeout(function () {
                 $('#sentence21').fadeIn(3000);
-            }, 127312);			
+            }, 127312+deltaT);			
 
 }
