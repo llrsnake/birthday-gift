@@ -27,6 +27,9 @@ $(function () {
 	$("#content").css("margin-left", Math.max(($window.width() - $("#content").width()) / 2, 10));
 	$("#loveHeart").css("margin-top", 20);
 	$('.heart-vt').css("left","50%");
+	$("#code").css("font-size",30);width: 
+	$("#code").css("width",500);
+	$("#code").css("line-height", 1.4);
 	//$('#content').css("border","1px solid #000099");
 	}
 });
