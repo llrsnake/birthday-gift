@@ -1,0 +1,160 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #ffd1d6;
+	font-size: 12px;
+	overflow: auto;
+}
+#background{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+}
+#mainDiv{
+	width: 100%;
+	height: 100%;
+}
+
+#loveHeart {
+	float: right;
+	width:500px;
+	height:205px;
+}
+
+#elapseClock {
+	text-align: right;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#words {
+	font-family: "fzsxslk";
+	width: 500px;
+	font-size: 24px;
+	color:#666;
+}
+
+#messages{
+	display: none;
+}
+
+#elapseClock .digit{
+	font-family: "digit";
+	font-size: 36px;
+}
+
+#loveu{
+	padding: 5px;
+	font-size: 20px;
+	margin-right: 120px;
+	margin-top: 30px;
+	text-align: right;
+	display: none;
+}
+
+#loveu .signature{
+	margin-top: 10px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+#clickSound{
+	display:none;
+}
+
+#code {
+	float: left;
+	width: 420px;
+	height: 740px;
+	color: #333;
+	font-family: "fzsxslk";
+	font-size: 24px;
+	line-height:32px;
+	color:#666;
+}
+
+#copyright{
+	margin-top: 10px;
+	text-align: center;
+	width:100%;
+	color:#666;
+}
+
+#errorMsg{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	position: absolute;
+	top: 100px;
+	left:0px;
+}
+
+#copyright a{
+	color:#666;
+}
+
+#sentence1{
+	display: none;
+}
+#sentence2{
+	display: none;
+}
+#sentence3{
+	display: none;
+}
+#sentence4{
+	display: none;
+}
+#sentence5{
+	display: none;
+}
+#sentence6{
+	display: none;
+}
+#sentence7{
+	display: none;
+}
+#sentence8{
+	display: none;
+}
+#sentence9{
+	display: none;
+}
+#sentence10{
+	display: none;
+}
+#sentence11{
+	display: none;
+}
+#sentence12{
+	display: none;
+}
+#sentence13{
+	display: none;
+}
+#sentence14{
+	display: none;
+}
+#sentence15{
+	display: none;
+}	
+#sentence16{
+	display: none;
+}
+#sentence17{
+	display: none;
+}
+#sentence18{
+	display: none;
+}
+#sentence19{
+	display: none;
+}
+#sentence20{
+	display: none;
+}
+#sentence21{
+	display: none;
+}

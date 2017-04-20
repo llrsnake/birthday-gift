@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>亲爱的毛宝贝，生日快乐</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <style type="text/css">
+        @font-face {
+            font-family: digit;
+            src: url('digital-7_mono.ttf') format("truetype");
+        }
+		@font-face {
+            font-family: fzsxslk;
+            src: url('方正苏新诗柳楷简体.ttf') format("truetype");
+        }
+    </style>
+    <link href="css/default.css" type="text/css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/qrj.css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/garden.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+</head>
+<body>
+	
+    <div id="mainDiv">
+	
+        <div id="content">
+            <div id="code">
+				<div id="sentence1">我想和你虚度时光，比如低头看鱼</div>
+				<div id="sentence2">比如把茶杯留在桌子上，离开</div>
+                
+				<div id="sentence3">浪费它们好看的阴影</div>
+                
+				<div id="sentence4">我还想连落日一起浪费，比如散步</div>
+                
+				<div id="sentence5">一直消磨到星光满天</div>
+                
+				<div id="sentence6">我还要浪费风起的时候</div>
+                
+				<div id="sentence7">坐在走廊发呆，直到你眼中乌云</div>
+                
+				<div id="sentence8">全部被吹到窗外</div>
+                
+				<div id="sentence9">我已经虚度了世界，它经过我</div>
+                
+				<div id="sentence10">疲倦，又像从未被爱过</div>
+                
+				<div id="sentence11">但是明天我还要这样，虚度</div>
+                
+				<div id="sentence12">满目的花草，生活应该像它们一样美好</div>
+                
+				<div id="sentence13">一样无意义，像被虚度的电影</div>
+                
+				<div id="sentence14">那些绝望的爱和赴死</div>
+                
+				<div id="sentence15">为我们带来短暂的沉默</div>
+                
+				<div id="sentence16">我想和你互相浪费</div>
+                
+				<div id="sentence17">一起虚度短的沉默，长的无意义</div>
+                
+				<div id="sentence18">一起消磨精致而苍老的宇宙</div>
+                
+				<div id="sentence19">比如靠在栏杆上，低头看水的镜子</div>
+                
+				<div id="sentence20">直到所有被虚度的事物</div>
+                
+				<div id="sentence21">在我们身后，长出薄薄的翅膀</div>
+            </div>
+
+			<div class="heart-vt" id = "cake">
+				<div id="valentine">
+					<div class="shake">
+						<div class="rope"></div>
+						<div class="heart-wrap">
+							<img src="images/loveb.png" class="heart">
+							<img src="images/loves.png" class="beat">
+						</div>
+					</div>
+					<div class="tiny"></div>
+					<div class="close">&times;</div>
+				</div>
+			</div>
+			
+			<div id="loveHeart">
+                <div id="words">
+                    <div id="messages"> 
+                        宝贝，这是我们认识的第
+                        <div id="elapseClock"></div>
+                    </div>
+                    <div id="loveu">
+                        Happy Birthday!
+                        <br/>Love you forever and ever.
+                        <div class="signature">- llr</div>
+                    </div>
+                </div>
+            </div>
+			
+			
+        </div>
+    </div>
+	<canvas id = "background"></canvas>
+	<audio id="music" src="我想和你虚度时光_网页.mp3" autoplay="true" />
+    <script type="text/javascript">
+        var together = new Date();
+        together.setFullYear(2017, 1, 14);
+        together.setHours(17);
+        together.setMinutes(10);
+        together.setSeconds(0);
+        together.setMilliseconds(0);
+		
+		setTimeout(function () {
+                showMessages();
+            }, 133375);
+		timeElapse(together);
+        setInterval(function () {
+            timeElapse(together);
+        }, 500);
+        adjustCodePosition();
+        //$("#code").typewriter();
+		showCODE();
+		myVid=document.getElementById("music");
+		myVid.volume=0.7;
+    </script>
+		<!-- 全局通用组件 -->
+	<script src="js/jquery.min.js"></script>
+	<!--animation.js-->
+	<script src="js/qrj.js"></script>
+	<script src="js/bkground.js"></script>    
+</body>
+</html>
