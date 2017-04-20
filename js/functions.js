@@ -19,6 +19,9 @@ $(function () {
 	}
 	else{
 	$loveHeart = $("#loveHeart");
+	$("#code").css("width",700);
+	$("#loveHeart").css("width",500);
+	$("#code").css("height",1050);
 	$("#content").css("width", Math.max($("#code").width(),$("#loveHeart").width()));
 	$("#code").css("margin-left",($("#content").width() - $("#code").width()) / 2);
 	$("#content").css("height", $loveHeart.height() + $("#code").height());
@@ -27,9 +30,13 @@ $(function () {
 	$("#content").css("margin-left", Math.max(($window.width() - $("#content").width()) / 2, 10));
 	$("#loveHeart").css("margin-top", 20);
 	$('.heart-vt').css("left","50%");
-	$("#code").css("font-size",40);width: 
-	$("#code").css("width",800);
+	$("#code").css("font-size",40);
 	$("#code").css("line-height", 1.2);
+	$("#words").css("font-size",40);
+	$("#loveu").css("font-size",30);
+	$("#elapseClock").css("font-size",26);
+	$("#elapseClock .digit").css("font-size",40);
+	//$('#code').css("border","1px solid #000099");
 	//$('#content').css("border","1px solid #000099");
 	}
 });
