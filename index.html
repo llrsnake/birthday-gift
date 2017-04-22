@@ -101,15 +101,24 @@
         </div>
     </div>
 	<canvas id = "background"></canvas>
-	<audio id="music" src="我想和你虚度时光_网页.mp3" preload />
+	<audio id="music" src="我想和你虚度时光_网页.mp3" autoplay="autoplay" />
     <script type="text/javascript">
-	var shakeMusic = document.getElementById("music");
-		// 微信提供的事件，微信浏览器内部初始化完成后
-	document.addEventListener("WeixinJSBridgeReady", function () {
-	shakeMusic.load();
-	}, false);
 	
-	shakeMusic.play();
+	function autoPlayAudio1(){
+　　wx.config({
+// 配置信息, 即使不正确也能使用 wx.ready
+　　　　debug: false,
+　　　　appId: '',
+　　　　timestamp: 1,
+　　　　nonceStr: '',
+　　　　signature: '',
+　　　　jsApiList: []
+　　});
+　　wx.ready(function() {
+　　　　document.getElementById('music').play();
+　　});
+}
+		autoPlayAudio1();
         var together = new Date();
         together.setFullYear(2017, 1, 14);
         together.setHours(17);
