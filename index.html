@@ -103,22 +103,13 @@
 	<canvas id = "background"></canvas>
 	<audio id="music" src="我想和你虚度时光_网页.mp3" autoplay="autoplay" />
     <script type="text/javascript">
-	
-	function autoPlayAudio1(){
-　　wx.config({
-// 配置信息, 即使不正确也能使用 wx.ready
-　　　　debug: false,
-　　　　appId: '',
-　　　　timestamp: 1,
-　　　　nonceStr: '',
-　　　　signature: '',
-　　　　jsApiList: []
-　　});
-　　wx.ready(function() {
-　　　　document.getElementById('music').play();
-　　});
-}
-		autoPlayAudio1();
+
+		
+	var audio=document.querySelector("#music");
+    document.addEventListener("WeixinJSBridgeReady",function(){
+	audio.play();
+    },false);
+		
         var together = new Date();
         together.setFullYear(2017, 1, 14);
         together.setHours(17);
